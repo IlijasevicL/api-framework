@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'Generating Allure Report'
+allure generate ./target/allure-results -o ./target/AllureReport -c
+allure open ./target/AllureReport
